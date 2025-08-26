@@ -1,8 +1,6 @@
-package org.example.cryptoauth.model;
+package org.example.cryptoauth.model.balance;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "BalanceUser")

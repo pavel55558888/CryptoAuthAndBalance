@@ -2,10 +2,10 @@ package org.example.cryptoauth.hiberante.balance.repository.impl;
 
 import org.example.cryptoauth.hiberante.balance.repository.*;
 import org.example.cryptoauth.hiberante.balance.service.BalanceUser;
-import org.example.cryptoauth.model.BalanceUserModel;
-import org.example.cryptoauth.model.TransactionBalanceModel;
-import org.example.cryptoauth.model.dto.BalanceUserDTO;
-import org.example.cryptoauth.model.dto.TransferUserDTO;
+import org.example.cryptoauth.model.balance.BalanceUserModel;
+import org.example.cryptoauth.model.balance.TransactionBalanceModel;
+import org.example.cryptoauth.model.balance.dto.BalanceUserDTO;
+import org.example.cryptoauth.model.balance.dto.TransferUserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

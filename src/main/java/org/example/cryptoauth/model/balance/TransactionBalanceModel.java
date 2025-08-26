@@ -1,4 +1,4 @@
-package org.example.cryptoauth.model;
+package org.example.cryptoauth.model.balance;
 
 import jakarta.persistence.*;
 

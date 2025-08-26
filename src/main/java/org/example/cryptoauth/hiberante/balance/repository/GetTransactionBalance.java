@@ -1,7 +1,6 @@
 package org.example.cryptoauth.hiberante.balance.repository;
 
-import org.example.cryptoauth.model.TransactionBalanceModel;
-import org.example.cryptoauth.model.dto.BalanceUserDTO;
+import org.example.cryptoauth.model.balance.TransactionBalanceModel;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

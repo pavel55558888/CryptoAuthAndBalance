@@ -1,13 +1,13 @@
-package org.example.cryptoauth.controller;
+package org.example.cryptoauth.controller.balance;
 
 import jakarta.validation.Valid;
 import org.example.cryptoauth.hiberante.balance.repository.GetBalance;
 import org.example.cryptoauth.hiberante.balance.repository.SaleBalance;
 import org.example.cryptoauth.hiberante.balance.repository.SetBalance;
 import org.example.cryptoauth.hiberante.balance.repository.TransferBalance;
-import org.example.cryptoauth.model.BalanceUserModel;
-import org.example.cryptoauth.model.dto.BalanceUserDTO;
-import org.example.cryptoauth.model.dto.TransferUserDTO;
+import org.example.cryptoauth.model.balance.BalanceUserModel;
+import org.example.cryptoauth.model.balance.dto.BalanceUserDTO;
+import org.example.cryptoauth.model.balance.dto.TransferUserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;

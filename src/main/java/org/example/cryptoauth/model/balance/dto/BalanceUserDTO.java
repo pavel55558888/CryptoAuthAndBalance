@@ -1,4 +1,4 @@
-package org.example.cryptoauth.model.dto;
+package org.example.cryptoauth.model.balance.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

@@ -2,11 +2,11 @@ package org.example.cryptoauth.hiberante.balance.service.impl;
 
 import jakarta.persistence.EntityManager;
 import org.example.cryptoauth.hiberante.balance.service.BalanceUser;
-import org.example.cryptoauth.model.BalanceUserModel;
-import org.example.cryptoauth.model.TransactionBalanceModel;
-import org.example.cryptoauth.model.TypeTransaction;
-import org.example.cryptoauth.model.dto.BalanceUserDTO;
-import org.example.cryptoauth.model.dto.TransferUserDTO;
+import org.example.cryptoauth.model.balance.BalanceUserModel;
+import org.example.cryptoauth.model.balance.TransactionBalanceModel;
+import org.example.cryptoauth.model.balance.TypeTransaction;
+import org.example.cryptoauth.model.balance.dto.BalanceUserDTO;
+import org.example.cryptoauth.model.balance.dto.TransferUserDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
